@@ -11,7 +11,7 @@ import javax.servlet.http.HttpSession;
 
 import com.model.BasicSalary;
 import com.service.BasicSalaryServiceImp;
-
+/*fuck
 
 /**
  * Servlet implementation class addBasicSalary
