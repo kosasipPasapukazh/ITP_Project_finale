@@ -63,12 +63,10 @@
              <span style="font-weight:800;color:white;font-size: 40px;">Star -<span style="color: red">X</span> </span>
             <div class="container">
                 <img src="userlogo.png" style="border-radius: 50%;margin-left: 1000px;margin-top: -100px">
+                <p style="margin-left:950px;font-weight:700;color:white">Well Come<% %></p>
             </div>
           </div>
-           <div class="container" style="margin-left: 1020px">
-             <span><a href="#" style="color:white;font-weight: 800;padding: 30px;text-orientation: none">Login</a></span>
-             <span><a href="#" style="color:white;font-weight: 800;padding: 30px;text-orientation: none">SignUp</a></span>
-           </div>
+         
       
     </header>
 
