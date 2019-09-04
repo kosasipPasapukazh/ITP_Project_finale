@@ -6,7 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body>
-
+<body style="background-color:white">
+<jsp:include page="header.jsp"></jsp:include>
 </body>
 </html>

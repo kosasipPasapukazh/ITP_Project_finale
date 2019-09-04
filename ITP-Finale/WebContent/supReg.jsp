@@ -15,8 +15,8 @@ integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0
 
 
 </head>
-<body>
-
+<body style="background-color:white">
+<jsp:include page="header.jsp"></jsp:include>
 <section>
 
 <div class="container">

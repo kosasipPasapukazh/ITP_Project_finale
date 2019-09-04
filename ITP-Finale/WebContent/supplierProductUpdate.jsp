@@ -1,6 +1,4 @@
 
-
-
 <%@page import="com.DBconnection.DBconnection"%>
 <%@page import="com.model.supProduct"%>
 <%@page import="java.sql.ResultSet"%>
@@ -50,7 +48,8 @@
 	
 
 </head>
-<body>
+<body style="background-color:white">
+<jsp:include page="header.jsp"></jsp:include>
 	<section>
 
 	<div class="container">

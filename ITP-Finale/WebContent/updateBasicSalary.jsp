@@ -20,8 +20,8 @@
 
 
 </head>
-<body>
-
+<body style="background-color:white">
+<jsp:include page="header.jsp"></jsp:include>
 <div id="UpdateOT" class="container">
 
 

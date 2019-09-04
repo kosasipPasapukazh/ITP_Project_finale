@@ -25,32 +25,6 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
      <style type="text/css">
-     html,body{
-      width: 100%;
-      height: 100%;
-      margin:0;
-      padding: 0;
-      overflow-x: hidden; 
-     }
-     
-     body{
-           margin: 0;
-           min-height:700px;
-           background-image: 100% 100%;
-     }
-      
-      header {
-           height: 150px;
-           background-color: rgba(1,1,1,0.7);
-
-      }
-
-      header  img{
-        height: 50px;
-        width: 50px;
-        margin-top: 30px;
-        border-radius: 50%;
-      }
 
      .navbar{
        margin:0; 
@@ -73,21 +47,8 @@
 
 
 
-	<body>
-	 <header class="container-fluid">
-             <div >
-               <br>
-             </div>
-            <div id="header-title" class="container">
-             <span style="font-weight:800;color:white;font-size: 40px;">Star -<span style="color: red">X</span> </span>
-            <div class="container">
-                <img src="img/userlogo.png" style="border-radius: 50%;margin-left: 1000px;margin-top: -100px">
-                
-            </div>
-          </div>
-           
-    	
-    </header>
+	<body style="background-color:white">
+	<jsp:include page="header.jsp"></jsp:include>
 
     
          <!--Navbar-->

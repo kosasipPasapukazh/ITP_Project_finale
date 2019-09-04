@@ -53,7 +53,7 @@
 
   <body style="background-color:white">
     
-  <jsp:include page="header.jsp"></jsp:include>
+  
     
          <!--Navbar-->
 	<nav class="navbar navbar-expand-lg navbar-dark primary-color bg-primary text-white>

@@ -11,33 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
      <style type="text/css">
-     html,body{
-      width: 100%;
-      height: 100%;
-      margin:0;
-      padding: 0;
-      overflow-x: hidden; 
-
-      background-color: white;
-     }
-     body{
-           margin: 0;
-           background-image: 100% 100%;
-     }
-      
-      header {
-           height: 150px;
-           background-color: rgba(1,1,1,0.7);
-
-      }
-
-      header  img{
-      	height: 50px;
-      	width: 50px;
-      	margin-top: 30px;
-      	border-radius: 50%;
-      }
-
+    
      .navbar{
        margin:0; 
      }
@@ -57,27 +31,12 @@
      
   
      </style>
-    <title>Home-page</title>
+    <title>Hardware consultation</title>
   </head>
 
-  <body>
+  <body style="background-color:white">
     
-    <header class="container-fluid">
-             <div >
-               <br>
-             </div>
-            <div id="header-title" class="container">
-             <span style="font-weight:800;color:white;font-size: 40px;">Star -<span style="color: red">X</span> </span>
-            <div class="container">
-                <img src="userlogo.png" style="border-radius: 50%;margin-left: 1000px;margin-top: -100px">
-            </div>
-          </div>
-           <div class="container" style="margin-left: 1020px">
-             <span><a href="LoginPage.jsp" style="color:white;font-weight: 800;padding: 30px;text-orientation: none">Log Out</a></span>
-             
-           </div>
-      
-    </header>
+    <jsp:include page="header.jsp"></jsp:include>
     
          <!--Navbar-->
 	<nav class="navbar navbar-expand-lg navbar-dark primary-color bg-primary text-white">
@@ -276,4 +235,4 @@ The word nature is derived from the Latin word natura, or "essential qualities, 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
-</html>>
+</html>

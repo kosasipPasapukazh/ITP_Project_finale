@@ -24,8 +24,8 @@
 
 
 </head>
-<body>
-
+<body style="background-color:white">
+<jsp:include page="header.jsp"></jsp:include>
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="#" id="navAnchor" >Home</a></li>

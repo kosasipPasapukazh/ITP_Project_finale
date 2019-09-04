@@ -45,12 +45,10 @@
              <span style="font-weight:800;color:white;font-size: 40px;">Star -<span style="color: red">X</span> </span>
             <div class="container">
                 <img src="img/userlogo.png" style="border-radius: 50%;margin-left: 1000px;margin-top: -100px">
+                <p style="color:white;font-weight:800;margin-left:950px">Wellcome <% %></p>
             </div>
           </div>
-           <div class="container" style="margin-left: 1020px">
-             <span><a href="LoginPage.jsp" style="color:white;font-weight: 800;padding: 30px;text-orientation: none">Login</a></span>
-             <span><a href="UserRegistration.jsp" style="color:white;font-weight: 800;padding: 30px;text-orientation: none">SignUp</a></span>
-           </div>
+          
     	
     </header>
 </body>
