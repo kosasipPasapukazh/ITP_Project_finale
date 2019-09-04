@@ -73,8 +73,8 @@
             </div>
           </div>
            <div class="container" style="margin-left: 1020px">
-             <span><a href="#" style="color:white;font-weight: 800;padding: 30px;text-orientation: none">Login</a></span>
-             <span><a href="#" style="color:white;font-weight: 800;padding: 30px;text-orientation: none">SignUp</a></span>
+             <span><a href="LoginPage.jsp" style="color:white;font-weight: 800;padding: 30px;text-orientation: none">Log Out</a></span>
+             
            </div>
       
     </header>
