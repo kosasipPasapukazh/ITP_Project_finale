@@ -28,12 +28,67 @@
         height: 700px;
       }
 
-  
+	 #imggg{
+	 	height:400px;
+	 	width:200x;
+	 
+	 
+	 
+	 }
+
+
+
+
+
+.sidenav {
+  height: 1000px;
+  width: 200px;
+  position: relative;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+
+
+
+
+
+
+
+
+
+
+
+
      </style>
+     
+     
+     
+     
     <title>Home-page</title>
   </head>
 
-  <body style="background-color:white">
+  <body style="background-color:black;">
     
    <jsp:include page="header.jsp"></jsp:include>
 
@@ -60,22 +115,16 @@
         				</a>
       				</li>
       				<li class="nav-item">
-        				<a class="nav-link" href="featuers.jsp">Features</a>
+        				<a class="nav-link" href="products.jsp">Products</a>
       				</li>
       				<li class="nav-item">
-        				<a class="nav-link" href="order.jsp">Poducts</a>
+        				<a class="nav-link" href="services.jsp">Services</a>
       				</li>
 
-      				<!-- Dropdown -->
-      				<li class="nav-item dropdown">
-        				<a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
-          				aria-haspopup="true" aria-expanded="false">Dropdown</a>
-        				<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-          				<a class="dropdown-item" href="#">Action</a>
-          				<a class="dropdown-item" href="#">Another action</a>
-          				<a class="dropdown-item" href="#">Something </a>
-        				</div>
+					<li class="nav-item">
+        				<a class="nav-link" href="feedback.jsp">Help</a>
       				</li>
+      				
 
     				</ul>
     				<!-- Links -->
@@ -91,79 +140,63 @@
 	</nav>
 				<!--/.Navbar-->
     				
-      <section style="margin-top: 0px">
+    				
+    				
+    				<div class="sidenav">
+
+
+				<div class="card" style="width: 200px; margin-top: 10px; background-color:#C5E0F5;">
+                      <img src="img/custom.png"style="margin-top: 20px; margin-left: 20px;" width="150px" height="100px" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Custom Computer Builds</h5>
+                        <button type="button" class="btn btn-primary btn-lg btn-block">Go</button>
+                     <!--    <a href="customOrder.jsp" class="btn btn" style="width: 300px">View Custom Computers</a> -->
+                      </div>
+                    </div>
+                    
+                    
+                    <div class="card" style="width: 200px; margin-top: 30px;  background-color:#C5E0F5;">
+                      <img src="img/part.png"style="margin-top: 20px; margin-left: 20px;" width="150px" height="100px" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspParts</h5>
+                        <button type="button" class="btn btn-primary btn-lg btn-block">Go</button>
+                     <!--    <a href="customOrder.jsp" class="btn btn" style="width: 300px">View Custom Computers</a> -->
+                      </div>
+                    </div>
+                    
+                    <div class="card" style="width: 200px; margin-top: 30px;  background-color:#C5E0F5;">
+                      <img src="img/custom.png"style="margin-top: 20px; margin-left: 20px;" width="150px" height="100px" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title "> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspServices </h5>
+                        <button type="button" class="btn btn-primary btn-lg btn-block">Go</button>
+                     <!--    <a href="customOrder.jsp" class="btn btn" style="width: 300px">View Custom Computers</a> -->
+                      </div>
+                    </div>
+
+
+
+
+
+</div>
+    				
+    				
+    				
+    				
+    				
+    				
+    				
+      <section style="margin-top: -1000px; margin-left:200px;">
         <div class="container-fluid " >
          
           <div >
-            <div class="row" style="min-height: 700px">
-            <div class="col-lg-4 col-md-8 bg-light" style="padding: 20px" style="position: sticky;">
-                    <div class="card" style="width: 25rem;">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Custom Computer Builds</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                       <a href="customOrder.jsp" class="btn btn-dark" style="width: 300px">View Custom Computers</a>
-                      </div>
-                    </div>
-                          <hr>
-                    <div class="card" style="width: 25rem;">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Spare Part Buildings</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                       <a href="sparepart.jsp" class="btn btn-dark" style="width:300px" >Go Spare Parts</a>
-                      </div>
-                    </div>
-                        <hr>
-                    <div class="card" style="width: 25rem;">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title" >System Services</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                       <a href="servMain.jsp" class="btn btn-dark" style="width:  300px">Go Service</a>
-                      </div>
-                    </div>
+            <div class="row" style="min-height: 700px;   " >
 
-                    <!--slide show sections-->
-             <div id="demo" class="carousel slide" data-ride="carousel">
-
-  <!-- Indicators -->
-                        <ul class="carousel-indicators">
-                         <li data-target="#demo" data-slide-to="0" class="active"></li>
-                      <li data-target="#demo" data-slide-to="1"></li>
-                         <li data-target="#demo" data-slide-to="2"></li>
-                        </ul>
-  
-                        <!-- The slideshow -->
-                        
-                        <div class="carousel-inner" >
-                          <div class="carousel-item active">
-                            <img src="img/header1.jpg"  width="2000" height="300">
-                          </div>
-                          <div class="carousel-item" >
-                            <img src="img/header2.png" width="2000" height="300">
-                          </div>
-                          <div class="carousel-item" >
-                            <img src="img/homeb1.jpg" width="2000" height="300">
-                          </div>
-                        </div>
-                        
-                        <!-- Left and right controls -->
-                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                          <span class="carousel-control-prev-icon"></span>
-                        </a>
-                             <a class="carousel-control-next" href="#demo" data-slide="next">
-                          <span class="carousel-control-next-icon"></span>
-                       </a>
-                      </div>
-             </div>
-
-              <div class="col-lg-4  bg-light" style="padding: 20px"> 
+              <div style="padding: 20px; width:2000px; "> 
                 <!--slide show sections-->
-             <div id="demo" class="carousel slide" data-ride="carousel">
+             <div id="demo" class="carousel slide" data-ride="carousel"  style="height:400px; width:1000px;  ">
 
   <!-- Indicators -->
-                        <ul class="carousel-indicators">
+                        <ul class="carousel-indicators" >
                          <li data-target="#demo" data-slide-to="0" class="active"></li>
                       <li data-target="#demo" data-slide-to="1"></li>
                          <li data-target="#demo" data-slide-to="2"></li>
@@ -173,13 +206,13 @@
                         
                         <div class="carousel-inner" >
                           <div class="carousel-item active">
-                            <img src="img/header1.jpg"  width="2000" height="300">
+                         <a href="index.jsp">  <img id = "imggg"  src="img/asus.png" ></a> 
                           </div>
                           <div class="carousel-item" >
-                            <img src="img/header2.png" width="2000" height="300">
+                            <a href="index.jsp"><img id = "imggg"  src="img/slide1.png" ></a>
                           </div>
                           <div class="carousel-item" >
-                            <img src="img/homeb1.jpg" width="2000" height="300">
+                           <a href="index.jsp"> <img id = "imggg"  src="img/gm.jpg" ></a>
                           </div>
                         </div>
                         
@@ -192,88 +225,57 @@
                        </a>
                       </div>
                       <!--slide show ending sections-->
-                     <!--about the Azus Products-->
-                     <div >
-                         <div class="jumbotron bg-primary" style="padding: 20px">
-                            <span style="color: white;font-weight: 1000">About Azus Products..!!</span>
-                            <hr style="  border: 2px solid white;border-radius: 2px">
-                            <p style="color: white">ASUS is a Taiwan-based, multinational computer hardware and consumer electronics company that was established in 1989. Dedicated to creating products for today's and tomorrow's smart life, ASUS is the world's No. 1 motherboard and gaming brand as well as a top-three consumer notebook vendor.</p>
-
-                            <p style="color: white">ASUS became widely known in North America when it revolutionized the PC industry in 2007 with its Eee PC™. Today, the company is pioneering new mobile trends with the ASUS ZenFone™ series, and it is rapidly developing virtual and augmented reality products as well as IOT devices and robotics technologies. Most recently, ASUS introduced Zenbo, a smart home robot designed to provide assistance, entertainment, and companionship to families.</p>
-
-                            <p style="color: white">In 2015 and 2016, Fortune magazine recognized ASUS as one of the World’s Most Admired Companies, and for the past four years Interbrand has ranked ASUS Taiwan’s most valuable international brand. The company has more than 17,000 employees, including a world-class R&D team. Driven by innovation and committed to quality, ASUS won 4,385 awards and earned approximately US$13.3 billion in revenue in 2016.</p>
-                         </div> 
-                     </div>
-
-              </div>
-              <div class="col-lg-4 bg-light" style="padding: 20px">
-                <div class="jumbotron" style="padding: 20px;">
-                    <span style="color: black;font-weight: 1000">Most Populer Product Details</span>
-                    <hr style="  border: 2px solid black;border-radius: 2px">
-                    <ul style="font-weight: 600">
-                      <li>
-                       <a href="#">Best Overall: ASUS Chromebook C202SA-YS02 at Amazon, “While a sleek design is all good and well, sometimes you need a laptop that can stand up to a long day’s work.”</a> 
-                      </li>
-                      <li>
-                        <a href="#"> Best 2-in-1: ASUS Chromebook Flip C302CA-DHM4 at Amazon, “Houses a powerfully fast Intel m3 core processor with 64GB of storage and 4GB of RAM.”</a>
-                       
-                      </li>
-                      <li>
-                        <a href="#">Best for Gaming: ASUS ROG Strix Hero II at Amazon, “A highly appealing option for PC gaming.”</a>
-                        
-                      </li>
-                      <li>
-                        <a href="#">Best Portable: ASUS ZenBook S at Amazon, “The size doesn't mean you have to sacrifice any functionality.”</a>
-                        
-                      </li>
-                      <li>
-                        <a href="#"> Best Design: ASUS F556UA-AB32 at Amazon, “Strikes a harmonious balance between beautiful design and impressive power."</a>
-                       
-                      </li>
-                      <li>
-                        <a href="#">  Best Budget: Asus VivoBook Max at Amazon, “The ideal choice if you’re looking to do some work on-the-go or are a college student.”</a>
                       
-                      </li>
-                      <li>
-                        <a href="#">Best for Business: ASUS P-Series P2540UA-AB51 at Amazon, “Workaholics will especially like the ASUS Business Manager software.”</a>
-                        
-                      </li>
-                      <li>
-                        <a href="#"> Best for Creatives: ASUS VivoBook S at Amazon, “Has a screen so beautiful you’ll never want to stop working.”</a>
-                       
-                      </li>
-                    </ul>
-                    
-                </div>
-                
+
+
+
+              <!--about the Azus Products-->
+						
+						<div style="margin-top:20px;">
+                         <div class="jumbotron" style="padding: 20px; width:1000px; background-color:#8EC0E7;">
+                           <!--   <span style="color: white;font-weight: 1000">About Azus Products..!!</span>
+                            <hr style="  border: 2px solid white;border-radius: 2px"> -->
+                            <p style="color: blue">ASUS is a Taiwan-based, multinational computer hardware and consumer electronics company that was established in 1989. Dedicated to creating products for today's and tomorrow's smart life, ASUS is the world's No. 1 motherboard and gaming brand as well as a top-three consumer notebook vendor.
+                            <a href="https://en.wikipedia.org/wiki/Asus" target="_blank" >Wikipedia</a></p>
+
+                           </div>
+
+						</div>
+
+
               </div>
-              <div class="col-lg-12 col-md-12" style="padding:10px">
+              
+    
+           
+              <div class="col-lg-12 col-md-12" style="padding:10px; width:1000px; margin-left: 10px;">
                 
-                <div class="jumbotron">
+                <div class="jumbotron"  style="padding-left:20px; width:1000px;">
                   <span  style="font-weight: 1000" >Most Preferd Products currently</span>
                   <br><br>
                   <span  style="font-weight: 1000" >Good Design Award 2017 winners</span><hr>
-<p><span style="font-weight: 800">ZenFone AR</span>
-ZenFone AR is the world’s first 5.7-inch smartphone that is both Tango-enabled and Daydream-ready, and was developed in close cooperation with Google. Equipped with an innovative TriCam system consisting of three rear cameras — a motion-tracking, depth-sensing, and high-resolution 23MP camera — ZenFone AR is able to create a three-dimensional model of its surroundings and to track its motion.
-</p>
-<hr>
-<p>
-<span  style="font-weight: 800"> ZenFone 4 Series </span>
-ZenFone 4 Series smartphones are designed to provide the best mobile photography experiences, with dual cameras that enable unlimited creative options and give users the freedom to capture their world from multiple perspectives. The ZenFone 4 Series currently includes two models: ZenFone 4 Pro and ZenFone 4. ZenFone 4 Pro is the ultimate expression of ASUS smartphone design, crafted to provide luxury in every detail and featuring dual cameras to deliver an unparalleled mobile photography experience. </p>
+					<p><span style="font-weight: 800">ZenFone AR</span>
+					ZenFone AR is the world’s first 5.7-inch smartphone that is both Tango-enabled and Daydream-ready, and was developed in close cooperation with Google. Equipped with an innovative TriCam system consisting of three rear cameras — a motion-tracking, depth-sensing, and high-resolution 23MP camera — ZenFone AR is able to create a three-dimensional model of its surroundings and to track its motion.
+					</p>
+						<hr>
+					<p>
+					<span  style="font-weight: 800"> ZenFone 4 Series </span>
+					ZenFone 4 Series smartphones are designed to provide the best mobile photography experiences, with dual cameras that enable unlimited creative options and give users the freedom to capture their world from multiple perspectives. The ZenFone 4 Series currently includes two models: ZenFone 4 Pro and ZenFone 4. ZenFone 4 Pro is the ultimate expression of ASUS smartphone design, crafted to provide luxury in every detail and featuring dual cameras to deliver an unparalleled mobile photography experience. </p>
+                
+                <br>
+                
                 </div>
                
               </div>
             </div>
             </div>
           </div>
-        </div>
       </section>
     
 
-      <footer id="sticky-footer" class="container-fluid py-4 bg-dark text-white-50">
+      <footer id="sticky-footer" class="container-fluid " style="overflow:none; background:#001f3f;">
            
           <!--company links-->    
-        <div class="container" style="margin-left: 250px">
+        <div class="container" style="margin-left: 250px; margin-bottom: 0px">
            <div class="footer-title">Company</div>
             <ul class="list-unstyled">
               <li>

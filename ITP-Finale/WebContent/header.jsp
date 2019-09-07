@@ -46,6 +46,7 @@
 * {box-sizing: border-box;}
 
   html,body{
+  
       width: 100%;
       height: 100%;
       margin:0;
@@ -53,12 +54,15 @@
       overflow-x: hidden; 
       font-family: Arial, Helvetica, sans-serif;
       background-color: white;
+      
      }
 
 .header {
+
   overflow: hidden;
   background-color: #001f3f;
   padding: 20px 10px;
+
 }
 
 .header a {
@@ -74,7 +78,7 @@
 
   padding: 12px;
   text-decoration: none; 
-   font-size: 80px;
+   font-size: 40px;
   line-height: 25px;
 
 }
@@ -117,7 +121,6 @@
       }
 
 @media screen and (max-width: 500px) {
-
 
   .header a {
     float: none;
