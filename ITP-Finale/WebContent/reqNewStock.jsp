@@ -70,7 +70,7 @@
       				<li class="nav-item active">
         				<a class="nav-link"  href="StockManager.jsp">Main
           				<span class="sr-only">(current)</span>
-        				</a>
+        			</a>
       				</li>
       				<li class="nav-item">
         				<a class="nav-link" href="productView.jsp">Products</a>
