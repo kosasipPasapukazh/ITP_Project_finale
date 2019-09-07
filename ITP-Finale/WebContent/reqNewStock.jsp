@@ -163,7 +163,7 @@
 
 				<br/>
 	
-				<input id="bttn" type="reset" value="Reset" style="font-size:20px;"  class="form-control" />
+				<input id="bttn" type="reset" value="Reset" style="font-size:20px;" class="form-control" />
 				
 				<br/>
 	
