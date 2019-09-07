@@ -71,8 +71,6 @@ IPromotionsService allprom=new PromotionsServiceImp();
 
 List <Promotions> otl=allprom.getAll();
 
-
-
 %>
 
 

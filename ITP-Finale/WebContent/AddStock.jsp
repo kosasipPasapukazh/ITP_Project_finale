@@ -24,14 +24,23 @@
         height: 700px;
       }
      
+     #bttn:hover{
      
+     	color:#239E00;
+     	font-weight: bold;
+     	border:#239E00;
+     	border-style: solid;
+  		border-width: thick;
+     	
+     }
      
   
      </style>
-    <title>Home-page</title>
+    <title>Stock Manage</title>
+    
   </head>
 
-  <body style="background-color:white">
+  <body style="background-color:#C4F5B5">
     
     <jsp:include page="header.jsp"></jsp:include>
 
@@ -43,7 +52,7 @@
   			
 
   				<!-- Collapse button -->
-  				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+  				<button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#basicExampleNav"
     				aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
    				 <span class="navbar-toggler-icon"></span>
   				</button>
@@ -54,27 +63,17 @@
     				<!-- Links -->
     				<ul class="navbar-nav mr-auto">
       				<li class="nav-item active">
-        				<a class="nav-link" href="StockManager.jsp">Home
+        				<a class="nav-link"  href="StockManager.jsp">Main
           				<span class="sr-only">(current)</span>
         				</a>
       				</li>
       				<li class="nav-item">
-        				<a class="nav-link" href="#">Features</a>
+        				<a class="nav-link" href="productView.jsp">Products</a>
       				</li>
       				<li class="nav-item">
-        				<a class="nav-link" href="#">Poducts</a>
+        				<a class="nav-link" href="stoPro.jsp">My Profile</a>
       				</li>
 
-      				<!-- Dropdown -->
-      				<li class="nav-item dropdown">
-        				<a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
-          				aria-haspopup="true" aria-expanded="false">Dropdown</a>
-        				<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-          				<a class="dropdown-item" href="#">Action</a>
-          				<a class="dropdown-item" href="#">Another action</a>
-          				<a class="dropdown-item" href="#">Something else here</a>
-        				</div>
-      				</li>
 
     				</ul>
     				<!-- Links -->
@@ -96,7 +95,7 @@
 
   <div class="container">
   
-  <div class="jumbotron">
+  <div class="jumbotron"  style="background-color:#ABF595;">
   
   </nav>
   
@@ -104,7 +103,7 @@
   
  
   
-  <table class="table table-striped">
+  <table class="table table-striped" style="background-color:#96F27C;"    >
   
   <h1 align="center">Add Product</h1>
   
@@ -151,11 +150,11 @@
       
   </table>
   
-        <input type="submit" name="Add" class="form-control" value="Add"  id="submit" onClick="return booked();"/>
+        <input id="bttn" type="submit" name="Add" class="form-control" value="Add" style="font-size:20px;" id="submit" onClick="return booked();"/>
 
         <br/>
   
-        <input type="reset" value="Reset" class="form-control" />
+        <input id="bttn" type="reset" value="Reset" style="font-size:20px;" class="form-control" />
         
         <br/>
   
@@ -166,7 +165,7 @@
       </section>
     
 
-      <footer id="sticky-footer" class="container-fluid py-4 bg-dark text-white-50">
+      <footer id="sticky-footer" class="container-fluid py-4 bg-dark text-white-50" style="background-color:#001f3f;'">
            
           <!--company links-->    
         <div class="container" style="margin-left: 250px">

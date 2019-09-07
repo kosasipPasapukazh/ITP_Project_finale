@@ -48,6 +48,7 @@
 
 
 	<body style="background-color:white">
+	
 	<jsp:include page="header.jsp"></jsp:include>
 
     
