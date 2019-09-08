@@ -90,6 +90,16 @@ background-color: #3e8e41}
       				<li class="nav-item">
         				<a class="nav-link" href="stoPro.jsp">My Profile</a>
       				</li>
+      				
+      				<!-- Dropdown -->
+      				<li class="nav-item dropdown">
+        				<a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          				aria-haspopup="true" aria-expanded="false">Requests</a>
+        				<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+          				<a class="dropdown-item" href="#">New Stock</a>
+          				<a class="dropdown-item" href="#">Leave</a>
+        				</div>
+      				</li>
 
 
     				</ul>
@@ -113,7 +123,6 @@ background-color: #3e8e41}
 
 
   
-  <form onsubmit="return findEmployeeForm() class="was-validated">
 
   
   
@@ -276,7 +285,7 @@ function drawHand(ctx, pos, length, width) {
       <div class="card-body">
         <h5 class="card-title">Request New Stock</h5>
         <p class="card-text">Here, you can view your stock and do whatever you want from these information.</p>
-        <a href="requestStock.jsp" class="btn btn-primary" style="float:left; height: 40px; width: 150px;">View</a>
+        <a href="reqNewStock.jsp" class="btn btn-primary" style="float:left; height: 40px; width: 150px;">View</a>
       </div>
     </div>
   </div>

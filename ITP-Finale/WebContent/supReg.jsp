@@ -22,23 +22,6 @@ integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0
 <div class="container">
 <div class="jumbotron">
 
-<ul class="nav justify-content-end">
-  <li class="nav-item">
-    <a class="nav-link active" href="supMMain.jsp">Main</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link active" >|</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="productView.jsp">Product</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link active">|</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="supAll.jsp">Supplier</a>
-  </li>
-</ul>
 
 <br><br><br>
 
@@ -165,6 +148,9 @@ function myFunction() {
 </div>
 </div>
 </section>
+
+
+	<jsp:include page="footer.jsp"></jsp:include>
 
 </body>
 </html>

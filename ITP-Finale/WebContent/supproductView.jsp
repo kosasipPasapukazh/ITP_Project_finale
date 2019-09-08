@@ -191,5 +191,9 @@ integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07j
 </div>
 </div>
 </section>
+
+
+	<jsp:include page="footer.jsp"></jsp:include>
+
 </body>
 </html>

@@ -180,16 +180,16 @@ sup.setSupProduct(rs.getString("supproduct"));
 
 	
 	
+	
+	
+	
+
+	
+	
 </section>
 
 
-
-
-
-
-
-
-
+	<jsp:include page="footer.jsp"></jsp:include>
 
 
 

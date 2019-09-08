@@ -14,12 +14,6 @@ import com.DBconnection.DBconnection;
 import com.model.Supplier;
 
 
-
-
-
-
-
-
 public class supplierServiceImp {
 	
 	public static final Logger log = Logger.getLogger(supplierServiceImp.class.getName());

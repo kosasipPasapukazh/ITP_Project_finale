@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
+
 <html>
  <head>
     <!-- Required meta tags -->
@@ -8,7 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
      <style type="text/css">
@@ -31,8 +33,6 @@
 	 #imggg{
 	 	height:400px;
 	 	width:200x;
-	 
-	 
 	 
 	 }
 
@@ -71,21 +71,12 @@
 
 
 
-
-
-
-
-
-
-
-
-
      </style>
      
-     
-     
-     
+
     <title>Home-page</title>
+    
+    
   </head>
 
   <body style="background-color:black;">
@@ -174,17 +165,9 @@
                     </div>
 
 
-
-
-
 </div>
     				
-    				
-    				
-    				
-    				
-    				
-    				
+				
       <section style="margin-top: -1000px; margin-left:200px;">
         <div class="container-fluid " >
          
@@ -202,7 +185,7 @@
                          <li data-target="#demo" data-slide-to="2"></li>
                         </ul>
   
-                        <!-- The slideshow -->
+                        <!-- The slideshow --> 
                         
                         <div class="carousel-inner" >
                           <div class="carousel-item active">
@@ -241,12 +224,8 @@
                            </div>
 
 						</div>
-
-
-              </div>
-              
-    
-           
+	</div>
+	
               <div class="col-lg-12 col-md-12" style="padding:10px; width:1000px; margin-left: 10px;">
                 
                 <div class="jumbotron"  style="padding-left:20px; width:1000px;">
